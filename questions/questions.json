@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "prompt": "Write a SQL query to find the second highest salary from an 'employees' table.",
+    "verbal_hint": "Use a subquery or the LIMIT clause.",
+    "nonverbal_hint": "Speak clearly and keep your hands relaxed.",
+    "ideal_response": "SELECT MAX(salary) FROM employees WHERE salary < (SELECT MAX(salary) FROM employees);"
+  },
+  {
+    "id": 2,
+    "prompt": "Explain the difference between supervised and unsupervised machine learning.",
+    "verbal_hint": "Contrast labeled vs unlabeled data.",
+    "nonverbal_hint": "Use two fingers to distinguish the two types.",
+    "ideal_response": "Supervised learning uses labeled data to predict outcomes; unsupervised finds structure without labels."
+  },
+  {
+    "id": 3,
+    "prompt": "What techniques would you use to handle missing data in a dataset?",
+    "verbal_hint": "Mention deletion, mean/median imputation, and model-based methods.",
+    "nonverbal_hint": "Maintain eye contact when listing options.",
+    "ideal_response": "Options include dropping rows, mean or median imputation, or using algorithms like KNN imputer."
+  },
+  {
+    "id": 4,
+    "prompt": "Describe how you would evaluate the performance of a classification model.",
+    "verbal_hint": "Discuss metrics: accuracy, precision, recall, F1 score, ROC AUC.",
+    "nonverbal_hint": "Use open hand gestures to emphasize each metric.",
+    "ideal_response": "Evaluate using a confusion matrix, then compute accuracy, precision, recall, and F1; consider ROC AUC for imbalance."
+  },
+  {
+    "id": 5,
+    "prompt": "Explain the Central Limit Theorem and its significance in analytics.",
+    "verbal_hint": "Define sampling distribution and normal approximation.",
+    "nonverbal_hint": "Nod softly when stating the theorem.",
+    "ideal_response": "It states that the sampling distribution of the mean approaches normality as sample size increases, enabling inference."
+  },
+  {
+    "id": 6,
+    "prompt": "How would you design a dashboard to track key performance indicators (KPIs) for sales?",
+    "verbal_hint": "Focus on stakeholder needs and clear visuals.",
+    "nonverbal_hint": "Point to an imaginary chart as you explain.",
+    "ideal_response": "I’d gather stakeholder requirements, choose 3–5 KPIs, use bar and line charts, and ensure interactive filters."
+  },
+  {
+    "id": 7,
+    "prompt": "What is regularization in machine learning and why is it used?",
+    "verbal_hint": "Mention L1 (Lasso) and L2 (Ridge) penalties.",
+    "nonverbal_hint": "Stand tall and speak deliberately.",
+    "ideal_response": "Regularization adds a penalty to large coefficients (L1 or L2) to prevent overfitting and improve generalization."
+  },
+  {
+    "id": 8,
+    "prompt": "Explain how A/B testing works and when you would use it.",
+    "verbal_hint": "Describe control vs treatment groups and statistical significance.",
+    "nonverbal_hint": "Smile lightly while describing experimentation.",
+    "ideal_response": "Split users randomly into control/treatment, measure metric difference, and use p-values to assess significance."
+  },
+  {
+    "id": 9,
+    "prompt": "Describe the difference between INNER JOIN and LEFT JOIN in SQL.",
+    "verbal_hint": "Use an example with two tables.",
+    "nonverbal_hint": "Hold up one finger for INNER, two for LEFT.",
+    "ideal_response": "INNER JOIN returns only matching rows; LEFT JOIN returns all left-table rows plus matches (NULL where no match)."
+  },
+  {
+    "id": 10,
+    "prompt": "How would you communicate complex analytical findings to non-technical stakeholders?",
+    "verbal_hint": "Emphasize simple language and visual aids.",
+    "nonverbal_hint": "Use open gestures and maintain eye contact.",
+    "ideal_response": "I’d summarize insights in plain language, use clear charts, and relate findings to business impact."
+  }
+]
